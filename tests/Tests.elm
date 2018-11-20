@@ -16,8 +16,8 @@ tests =
                 test "does not contain number" <|
                     \() -> Expect.false "a singleton set of 1 should not contain 2" ((singletonSet 1) 2)
             ]
-            -- union
-            -- intersect
-            -- diff
-            -- filter
+        -- describe "union"
+        -- describe "intersect"
+        -- describe "diff"
+        -- describe "filter"
         ]
